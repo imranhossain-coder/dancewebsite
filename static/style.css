@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+
+
+#navbar{
+        padding: 5px 14px;
+        background-color: #775c5c;
+        width: 100%;
+}
+
+#navbar ul{
+    display: flex;
+    align-items: center;
+    
+}
+#navbar ul li{
+
+    list-style: none;
+    padding: 3px 20px;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    text-decoration: none;
+    padding: 9px 15px;
+}
+#introsec{
+     height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.3rem;
+}
+#introsec::before{
+    content: "";
+    background: url(/static/joy-real-upk3M2NEP_s-unsplash.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 300px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+#sponser{
+    background-color: hsl(0deg 88% 86% / 35%);
+    height: 300px;
+}
+
+#footer{
+    background-color: grey;
+    height: 80px;
+}
+
+#mission{
+    height: 300px;
+}
+
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.4rem;
+}
+
+#mission .card{
+   
+    border: 2px solid black;
+    width: 30%;
+    margin: 26px;
+    height: 209px;
+    border-radius: 10px;
+    display: inline-block;
+    
+}
+.card h3{
+    padding: 10px;
+    text-align: center;
+}
+#logo img{
+    height: 60px;
+    margin-left: 20px;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cardimg{
+    height: 100px;
+    padding: 0 14px;
+}
+.card-box img{
+    height: inherit;
+}
+li a:hover{
+
+    color: rgb(199, 193, 193);
+
+}
+.sop{
+    display: inline-block;
+    margin: 0 30px;
+}
+.sop img{
+    width: 64%;
+}

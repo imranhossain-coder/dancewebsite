@@ -1,0 +1,52 @@
+extends base.pug
+
+block scripts
+    script(src="/static/index.js")
+
+block style
+    style
+        include  ../static/style.css
+block content
+    section#introsec
+        div Welcome to imran dance academy
+        div Eat dance sleep repeat
+
+    section#mission
+            h2 Our mission
+
+            div.card 
+                h3 Dance perfection
+                   div.card-box
+                        div.cardimg
+                            img(src="/static/img/exercise-1751254_1280.png")
+                        div.cardcontent
+                            p Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            div.card        
+                h3 Dance the way you like
+                     div.card-box
+                        div.cardimg
+                            img(src="/static/img/exercise-2029428_1920.png")
+                        div.cardcontent
+                            p Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            
+            div.card 
+                h3 Expert teaching 
+                     div.card-box
+                        div.cardimg
+                            img(src="/static/img/silhouette-3105527_1280.png")
+                        div.cardcontent
+                            p Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    
+    
+    
+    section#sponser
+        h2 This is our sponser
+
+        div.sop 
+            img(src="/static/img/sop.png")
+
+        div.sop
+            img(src="/static/img/sop.png")
+
+        div.sop
+            img(src="/static/img/sop.png")
